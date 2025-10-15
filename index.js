@@ -218,7 +218,7 @@ function calc() {
     document.getElementById('BEP').textContent = `$${BEP.toFixed(2)}`;
 
     // Розрахувати загальну ціну
-    const totalPrice = cityPrices + service + kompleksValue + priceCar + strahuvanya + zbir + fixPrice + BEP + swift + mitoValue + pdvValue + acciseSum + hazardous + 250;
+    const totalPrice = cityPrices + service + kompleksValue + priceCar + strahuvanya + zbir + fixPrice + BEP + swift + mitoValue + pdvValue + acciseSum + hazardous;
     document.getElementById('total-price').textContent = `$${totalPrice.toFixed(2)}`;
 
     // Additional calculations
