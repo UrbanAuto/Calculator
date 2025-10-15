@@ -197,8 +197,8 @@ function calc() {
     acciseSum *= euroToUsd;
 
     if (engineType !== "electro") {
-      mitoValue = (carpriceandzbir + 1600) * 0.1;
-      pdvValue = (carpriceandzbir + mitoValue + acciseSum + 1600) * 0.2 + 10;
+      mitoValue = (carpriceandzbir + 1800) * 0.1;
+      pdvValue = (carpriceandzbir + mitoValue + acciseSum + 1800) * 0.2 + 10;
     }
     else {
       hazardous = 100;
